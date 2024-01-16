@@ -24,7 +24,7 @@ def main():
     page_title="Power Chat",
     page_icon="✨") 
 
-    st.title("ASK Documents \n Powered by PowerSolution. Inc.")
+    st.title("ASK Documents \n Powered by FLC")
 
     if "conversation" not in st.session_state:
         st.session_state.conversation = None
